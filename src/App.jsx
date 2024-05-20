@@ -1,7 +1,12 @@
-export default function App() {
+import React from 'react'
+import TodoContainer from './components/TodoContainer'
+
+const App = () => {
   return (
-    <>
-      <h1>투두리스트 타임어택</h1>
-    </>
-  );
+    <div>
+      <TodoContainer />
+    </div>
+  )
 }
+
+export default App
